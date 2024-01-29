@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A process that stops the to infinity and beyond process
+
+pkill -f beyond

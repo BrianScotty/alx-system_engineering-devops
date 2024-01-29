@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script that stopd the "to infinity and beyond process
+
+kill "$(ps -x | pgrep -f beyond)"
