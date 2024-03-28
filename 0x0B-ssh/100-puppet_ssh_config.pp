@@ -4,7 +4,7 @@
 file { 'ect/ssh/ssh_cofig':
 	ensure => present,
 
-c`ontent =>"
+content =>"
 
 	#SSH client configuration
 	host*
