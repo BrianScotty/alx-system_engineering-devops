@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Open the 80 port
+# script of task 0 but using less lines
 
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-pkill -1 nginx
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
+kill "$(pgrep 'nginx' | head -1)"
