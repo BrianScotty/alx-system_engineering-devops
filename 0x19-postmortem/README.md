@@ -20,3 +20,4 @@ A neccessary update was undertaken on all the servers which was not complete on 
 ### Corrective and Preventative Measures
 * Test servers immediately after an update/change.
 * Be more attentive.
+![image](https://github.com/BrianScotty/alx-system_engineering-devops/assets/132557418/cc69fa1e-c668-440e-926c-623c2c0679ed)
